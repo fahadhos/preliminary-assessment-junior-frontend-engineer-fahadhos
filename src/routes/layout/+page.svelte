@@ -46,7 +46,7 @@
     </div>
   </div>
   <div class="navbar-center">
-    <a class="btn btn-ghost normal-case text-xl">Svelte App</a>
+    <a href="/" class="btn btn-ghost normal-case text-xl">Svelte App</a>
   </div>
   <div class="navbar-end">
     <button class="btn btn-ghost btn-circle">
