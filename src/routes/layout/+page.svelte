@@ -86,62 +86,52 @@
 </div>
 <!-- Navbar -->
 <!-- Layout page max-sm:grid-cols-4 max-sm:grid-rows-6  -->
-<div
-  class="lg:grid  lg:grid-cols-12 lg:grid-rows-6 max-sm:hidden  max-w-screen-2xl lg:gap-0 col-gap-0 lg:gap-x-0 lg:mx-auto lg:my-0"
->
-  <!-- 3x2 blue-400 -->
-  <div
-    class="col-span-2 row-span-3 gap-x-0 bg-blue-400 w-[256px] h-[290.01px]"
-  >
-    <!-- <div class=" ">3 × 2</div> -->
-  </div>
-  <!-- 2x2 color teal-400 -->
-  <div
-    class="col-span-2 row-span-2 col-start-1 row-start-4 gap-x-0 bg-teal-400 w-[256px] h-[193.34px]"
-  >
-    <!-- <div class="">2 × 2</div> -->
-  </div>
-  <!-- 1x6  fuchsia-400 -->
-  <div
-    class="col-span-6 col-start-1 row-start-6 gap-x-0 bg-fuchsia-400 w-[778px] h-[96.67px]"
-  >
-    <!-- <div class="">1 × 6</div> -->
-  </div>
-  <!-- 4x2 emerald-400 -->
-  <div
-    class="col-span-2 row-span-4 col-start-11 row-start-3 gap-x-0 bg-emerald-400 max-w  h-[386.68px]"
-  >
-    <!-- <div class="artboard">4 × 2</div> -->
-  </div>
-  <!-- 4x4 yellow-100 -->
-  <div
-    class="col-span-4 row-span-4 col-start-7 row-start-3 gap-x-0 bg-yellow-100 w-[515px] h-[386.68px] justify-center items-center mx-auto my-0 py-12"
-  >
-    <!-- mountain thakbe -->
-    <div class="square mx-auto my-0 w-[300px] h-[100px]">
-      <div class="hole bg-yellow-100 -ml-1">
-        <div class="box relative top-[9.1rem] left-[4.2rem]" />
-        <div class="triangle relative top-[6.3rem] left-100" />
+<div class=" mx-auto my-0 justify-center items-center text-center place-content-center max-w-max">
+
+    <div   class="lg:grid min-w-screen-sm  lg:grid-cols-12 lg:grid-rows-6 max-sm:hidden justify-center   lg:gap-0     ">
+      <!-- 3x2 blue-400 -->
+      <div     class="col-span-2 row-span-3   bg-blue-400 w-[320px] h-[480px]"  >
+        <!-- <div class=" ">3 × 2</div> -->
+      </div>
+      <!-- 2x2 color teal-400 -->
+      <div     class="col-span-2 row-span-2 col-start-1 row-start-4   bg-teal-400 w-[320px] h-[320px]">
+        <!-- <div class="">2 × 2</div> -->
+      </div>
+      <!-- 5x4 color rose-100 -->
+      <div     class="col-span-4 row-span-5 col-start-3 row-start-1 gap-x-0 bg-rose-100 w-[640px] h-[800px]">
+        <!-- <div class="artboard ">5 × 4</div> -->
+      </div>
+    
+      <!-- 1x6  fuchsia-400 -->
+      <div     class="col-span-6 col-start-1 row-start-6   bg-fuchsia-400 w-[960px] h-[160px]">
+        <!-- <div class="">1 × 6</div> -->
+      </div>
+      <!-- 4x2 emerald-400 -->
+      <div     class="col-span-2 row-span-4 col-start-11 row-start-3  bg-emerald-400 w-[320px]  h-[640px]">
+        <!-- <div class="artboard">4 × 2</div> -->
+      </div>
+      <!-- 2x6 blue-400 -->
+      <div     class="col-span-6 row-span-2 col-start-7 row-start-1  bg-blue-400 w-[960px] h-[320px]">
+        <!-- <div class="artboard">2 × 6</div> -->
+      </div>
+    
+      <!-- 4x4 yellow-100 -->
+      <div     class="col-span-4 row-span-4 col-start-7 row-start-3   bg-yellow-100 w-[640px] h-[640px] justify-center items-center mx-auto my-0 py-[160px]  ">
+        <!-- mountain thakbe -->
+        <div class="square mx-auto my-auto w-[300px] h-[100px]">
+          <div class="hole bg-yellow-100 -ml-1">
+            <div class="box relative top-[9.1rem] left-[4.2rem]" />
+            <div class="triangle relative top-[6.3rem] left-100" />
+          </div>
+        </div>
+        <!-- <div class="triangle"></div> -->
+        <!-- <div class="artboard">4 × 4</div> -->
       </div>
     </div>
-    <!-- <div class="triangle"></div> -->
-    <!-- <div class="artboard">4 × 4</div> -->
-  </div>
-  <!-- 2x6 blue-400 -->
-  <div
-    class="col-span-6 row-span-2 col-start-7 row-start-1 gap-x-0 bg-blue-400 max-w  h-[193.34px]"
-  >
-    <!-- <div class="artboard">2 × 6</div> -->
-  </div>
-  <!-- 5x4 color rose-100 -->
-  <div
-    class="col-span-4 row-span-5 col-start-3 row-start-1 gap-x-0 bg-rose-100 max-w h-[483.35px]"
-  >
-    <!-- <div class="artboard ">5 × 4</div> -->
-  </div>
+
 </div>
 
-<!-- layout -->
+<!-- layout desktop -->
 <!-- layout for mobile -->
 
 <div class="lg:hidden max-sm:grid max-sm:grid-cols-4  max-sm:grid-rows-6 max-sm:gap-0">
