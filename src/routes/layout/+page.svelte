@@ -119,9 +119,9 @@
   >
     <!-- mountain thakbe -->
     <div class="square mx-auto my-0 w-[300px] h-[100px]">
-      <div class="hole bg-yellow-100">
-        <div class="box relative top-[3.2rem] left-[3rem]" />
-        <div class="triangle relative top-[6.2rem] left-100" />
+      <div class="hole bg-yellow-100 -ml-1">
+        <div class="box relative top-[9.1rem] left-[4.2rem]" />
+        <div class="triangle relative top-[6.3rem] left-100" />
       </div>
     </div>
     <!-- <div class="triangle"></div> -->
@@ -154,8 +154,8 @@
   <!-- mountain thakbe -->
   <div class="square mx-auto my-0 w-[300px] h-[100px]">
     <div class="hole bg-yellow-100">
-        <div class="box relative top-[3.2rem] left-[3rem]" />
-      <div class="triangle relative top-[6.2rem] left-100" />
+        <div class="box relative top-[9.1rem] left-[4.2rem]" />
+        <div class="triangle relative top-[6.3rem] left-100" />
     </div>
   </div>
     </div>
@@ -165,19 +165,19 @@
 <style>
   .box {
     width: 0;
-    height: 174px;
-    border-left: 50px solid transparent;
+    height:0;
+    border-left: 34px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 80px solid #fe5f55;
+    border-bottom: 90px solid #fe5f55;
 
-    border-radius: 0% 0% 40% 50%;
+    border-radius: 0% 0% 50% 58%;
     position: absolute;
   }
   .triangle {
     width: 0;
     height: 0;
     border-left: 110px solid transparent;
-    border-right: 60px solid transparent;
+    border-right: 61px solid transparent;
     border-bottom: 150px solid #fe5f55;
     /* border-top: 120px solid #fe5f55; */
     border-radius: 0% 0% 200% 200%;
