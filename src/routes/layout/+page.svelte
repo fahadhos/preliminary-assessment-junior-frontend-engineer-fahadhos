@@ -87,40 +87,40 @@
 <!-- Navbar -->
 <!-- Layout page max-sm:grid-cols-4 max-sm:grid-rows-6  -->
 <div
-  class="lg:grid  lg:grid-cols-12 lg:grid-rows-6 max-sm:hidden   gap-0 col-gap-0 gap-x-0 mx-auto my-0"
+  class="lg:grid  lg:grid-cols-12 lg:grid-rows-6 max-sm:hidden  max-w-screen-2xl lg:gap-0 col-gap-0 lg:gap-x-0 lg:mx-auto lg:my-0"
 >
   <!-- 3x2 blue-400 -->
   <div
-    class="col-span-2 row-span-3 gap-x-0 bg-blue-400 w-[213.34px] h-[290.01px]"
+    class="col-span-2 row-span-3 gap-x-0 bg-blue-400 w-[256px] h-[290.01px]"
   >
     <!-- <div class=" ">3 × 2</div> -->
   </div>
   <!-- 2x2 color teal-400 -->
   <div
-    class="col-span-2 row-span-2 col-start-1 row-start-4 gap-x-0 bg-teal-400 w-[213.34px] h-[193.34px]"
+    class="col-span-2 row-span-2 col-start-1 row-start-4 gap-x-0 bg-teal-400 w-[256px] h-[193.34px]"
   >
     <!-- <div class="">2 × 2</div> -->
   </div>
   <!-- 1x6  fuchsia-400 -->
   <div
-    class="col-span-6 col-start-1 row-start-6 gap-x-0 bg-fuchsia-400 w-[640.02px] h-[96.67px]"
+    class="col-span-6 col-start-1 row-start-6 gap-x-0 bg-fuchsia-400 w-[778px] h-[96.67px]"
   >
     <!-- <div class="">1 × 6</div> -->
   </div>
   <!-- 4x2 emerald-400 -->
   <div
-    class="col-span-2 row-span-4 col-start-11 row-start-3 gap-x-0 bg-emerald-400 w-[213.34px] h-[386.68px]"
+    class="col-span-2 row-span-4 col-start-11 row-start-3 gap-x-0 bg-emerald-400 max-w  h-[386.68px]"
   >
     <!-- <div class="artboard">4 × 2</div> -->
   </div>
   <!-- 4x4 yellow-100 -->
   <div
-    class="col-span-4 row-span-4 col-start-7 row-start-3 gap-x-0 bg-yellow-100 w-[426.68px] h-[386.68px] justify-center items-center mx-auto my-0 py-12"
+    class="col-span-4 row-span-4 col-start-7 row-start-3 gap-x-0 bg-yellow-100 w-[515px] h-[386.68px] justify-center items-center mx-auto my-0 py-12"
   >
     <!-- mountain thakbe -->
     <div class="square mx-auto my-0 w-[300px] h-[100px]">
       <div class="hole bg-yellow-100">
-        <div class="box relative top-[3rem] left-[3rem]" />
+        <div class="box relative top-[3.2rem] left-[3rem]" />
         <div class="triangle relative top-[6.2rem] left-100" />
       </div>
     </div>
@@ -129,13 +129,13 @@
   </div>
   <!-- 2x6 blue-400 -->
   <div
-    class="col-span-6 row-span-2 col-start-7 row-start-1 gap-x-0 bg-blue-400 w-[634px] h-[193.34px]"
+    class="col-span-6 row-span-2 col-start-7 row-start-1 gap-x-0 bg-blue-400 max-w  h-[193.34px]"
   >
     <!-- <div class="artboard">2 × 6</div> -->
   </div>
   <!-- 5x4 color rose-100 -->
   <div
-    class="col-span-4 row-span-5 col-start-3 row-start-1 gap-x-0 bg-rose-100 w-[422px] h-[483.35px]"
+    class="col-span-4 row-span-5 col-start-3 row-start-1 gap-x-0 bg-rose-100 max-w h-[483.35px]"
   >
     <!-- <div class="artboard ">5 × 4</div> -->
   </div>
@@ -154,7 +154,7 @@
   <!-- mountain thakbe -->
   <div class="square mx-auto my-0 w-[300px] h-[100px]">
     <div class="hole bg-yellow-100">
-      <div class="box relative top-[3rem] left-[3rem]" />
+        <div class="box relative top-[3.2rem] left-[3rem]" />
       <div class="triangle relative top-[6.2rem] left-100" />
     </div>
   </div>
@@ -170,7 +170,7 @@
     border-right: 50px solid transparent;
     border-bottom: 80px solid #fe5f55;
 
-    border-radius: 10% 10% 40% 50%;
+    border-radius: 0% 0% 40% 50%;
     position: absolute;
   }
   .triangle {
