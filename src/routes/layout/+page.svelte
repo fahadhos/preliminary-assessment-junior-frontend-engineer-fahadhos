@@ -1,3 +1,5 @@
-<h2>
-    Layout Page
-</h2>
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+  
+ 
