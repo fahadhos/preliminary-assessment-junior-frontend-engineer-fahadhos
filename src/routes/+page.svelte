@@ -6,6 +6,7 @@
   
   <style lang="postcss">
     :global(html) {
-      background-color: theme(colors.gray.100);
+      background-color: #e5e5e5; /* Replace with your desired color value */
     }
   </style>
+  
